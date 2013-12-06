@@ -12,14 +12,16 @@ html {
 }
 
 .tomato {
-	margin:0;
-	top: 0;
+	/*margin:0;*/
+	padding-top: 100px;
 }
 
 .teal {
 	background: teal;
 	top:0;
 	height: 60px;
+	position: fixed;
+	width: 100%;
 }
 
 .submenu {
