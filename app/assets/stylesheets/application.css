@@ -1,12 +1,17 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
 html {
 	font-family: 'Josefin Slab', serif;
-	margin: 0;
-	padding: 0;
-	background: tomato;
+	background: -webkit-linear-gradient(tomato, white); /* For Safari */
+	background: -o-linear-gradient(tomato, white); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(tomato, white); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(tomato, white); /* Standard syntax (must be last) */
 }
 
 .tomato {
-
 	margin:0;
 	top: 0;
 }
@@ -19,10 +24,6 @@ html {
 
 .submenu {
 	display: none;
-}
-
-.submenu:hover {
-	display: inline;
 }
 
 h1 {
@@ -39,23 +40,36 @@ h2 {
 	color: teal;
 }
 
+h3.header {
+	padding-left: 0;
+}
+
 h3 {
 	margin: 0;
 	padding: 20px;
 	text-align: center;
-	padding-left: 100px;
-
+	padding-left: 20%;
 }
 
-h3.about {
+h4 {
+	padding-left: 20%;
+	color:teal;
+}
+
+h4 a:hover {
+	color: teal;
+}
+
+h3.about, .skills, .projects, .experience {
 	color:white;
 	text-align: left;
+	/*padding-left: 20%;*/
 }
 
-/*.paragraph {
-	padding-left: 200px;
-	width: 600px;
-}*/
+.skills ul li {
+	color: black;
+	padding-left: 20%;
+}
 
 a {
 	text-decoration: none;
@@ -64,11 +78,17 @@ a {
 
 h3 a:hover {
 	color: white;
-
 }
 
+p {
+	padding-left: 20%; 
+	width: 60%;
+	color: black;
+}
+
+
 .jen { 
-	margin-top: 20px;
+	margin: 20px;
 	border-radius: 50%;
 	background-image: url('jen.jpeg');
 	background-repeat: no-repeat;
