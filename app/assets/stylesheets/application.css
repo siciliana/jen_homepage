@@ -8,7 +8,8 @@ html {
 	background: -webkit-linear-gradient(tomato 80%, white 20%); /* For Safari */
 	background: -o-linear-gradient(tomato 80%, white ); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(tomato 80%, white ); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(tomato 60%, white ); /* Standard syntax (must be last) */
+	background: linear-gradient(tomato, white ); /* Standard syntax (must be last) */
+	background-repeat: no-repeat;
 }
 
 .tomato {
@@ -39,7 +40,7 @@ h1 {
 h2 {
 	text-align: center;
 	font-size: 30px;
-	color: teal;
+	color: #FFCC66;
 	padding-top:10px;
 }
 
@@ -61,12 +62,12 @@ h4 {
 	font-size: 20px;
 }
 
-h4 a:hover {
-	color: teal;
+.experience, h4 a:hover {
+	color: #FFCC66;
 }
 
-h3.about, .skills, .projects, .experience {
-	color: #FFCC66;
+h3.about, .skills, .projects {
+	color: teal;
 	text-align: left;
 	font-size: 30px;
 }
@@ -83,7 +84,7 @@ a {
 }
 
 h3 a:hover {
-	color: white;
+	color: #FFCC66;
 }
 
 p {
@@ -117,6 +118,15 @@ h4.social_header {
 	padding-top: 20px;
 }
 
+h3.experience {
+	color: teal;
+	text-align: left;
+	font-size: 30px;
+}
+
+h3.experience a{
+	color: teal;
+}
 .octokitty img {
-	height: 20px;
+	height: 14px;
 }
