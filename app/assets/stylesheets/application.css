@@ -5,10 +5,10 @@
 
 html {
 	font-family: 'Josefin Slab', serif;
-	background: -webkit-linear-gradient(tomato, white); /* For Safari */
-	background: -o-linear-gradient(tomato, white); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(tomato, white); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(tomato, white); /* Standard syntax (must be last) */
+	background: -webkit-linear-gradient(tomato 80%, white 20%); /* For Safari */
+	background: -o-linear-gradient(tomato 80%, white ); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(tomato 80%, white ); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(tomato 60%, white ); /* Standard syntax (must be last) */
 }
 
 .tomato {
@@ -33,7 +33,7 @@ h1 {
 	margin: 0;
 	text-align: center;
 	font-size: 80px;
-	color: white;
+	color: #FFCC66;
 }
 
 h2 {
@@ -66,7 +66,7 @@ h4 a:hover {
 }
 
 h3.about, .skills, .projects, .experience {
-	color:white;
+	color: #FFCC66;
 	text-align: left;
 	font-size: 30px;
 }

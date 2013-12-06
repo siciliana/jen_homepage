@@ -1,0 +1,13 @@
+<form name="f2email" action="/modules/f2email/formtoemail.php" method="POST">
+	<table align="center">
+		<tbody>
+			<tr><td>Your name:</td><td><input type="text" name="name"></td></tr>
+			<tr><td>Your email:</td><td><input type="text" name="email"></td></tr>
+			<tr><td>Subject:</td><td><input type="text" name="subject" size="40"></td></tr>
+			<tr><td colspan="2">Your Comment:</td></tr>
+			<tr><td colspan="2"><textarea name="comment" rows="5" cols="60"></textarea></td></tr>
+			<tr><td colspan="2" align="right"><input type="button" name="send" value="Send" onclick="js_validate(document.forms['f2email']); return false;"></td></tr>
+			<tr><td>Email To:</td><td><input type="text" name="toemail"></td></tr>
+			<tr><td colspan="2">(You must edit the code and define "MYEMAIL")</td></tr>
+		</tbody>
+	</table><input type="hidden" name="submitted" value="submitted"></form>
