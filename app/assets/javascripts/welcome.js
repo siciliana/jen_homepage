@@ -18,6 +18,6 @@ $(document).ready(function(){
 	// 	$('.teal').css("height", "100px");
 	// 	$('.social_header').show('slow');
 
-	});  
+	// });  
 });
 
