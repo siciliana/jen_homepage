@@ -1,5 +1,11 @@
-  <% @instagram.each do |instagram| %>
+<%= render "navbar" %>
 
-  <%= image_tag instagram.images.standard_resolution.url %>
+<div class="album_body">
+	<ul class="instagram">
+	  <% @instagram.each do |instagram| %>
 
-  <% end %>
+	  <li><%= image_tag instagram.images.standard_resolution.url, :class=> "insta_img" %></li>
+
+	  <% end %>
+	</ul>
+</div> 
