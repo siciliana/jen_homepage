@@ -1,6 +1,6 @@
 JenHomepage::Application.routes.draw do
 
-  # get "/album" => "album#index"
+  get "/album" => "album#index"
 
   get "contact/index"
 
