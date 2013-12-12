@@ -7,6 +7,7 @@ gem 'rails', '3.2.13'
 
 gem 'pg'
 gem 'instagram'
+gem 'turbolinks'
 
 
 # Gems used only for assets and not required

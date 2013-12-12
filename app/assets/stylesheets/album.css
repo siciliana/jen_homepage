@@ -4,13 +4,10 @@
 img.insta_img {
 	height: 100px;
 	border-radius: 50%;
-	position: center;
-	/*visibility:hidden;*/
 }
 
 img.insta_img:hover {
 	height: 400px;
-	transition: width 1s, height 1s, transform 1s;
 	-webkit-transition: width 1s, height 1s, -webkit-transform 1s;
 	transform:rotate(360deg);
 	-webkit-transform:rotate(360deg); /* Safari */
