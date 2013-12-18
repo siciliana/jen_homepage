@@ -33,10 +33,15 @@ $(document).ready(function(){
 	});
 
 	$('.social_header').hide(); 
-	$('#follow').click(function() {
-		$('.teal').css("height", "100px");
-		$('.social_header').toggle('slow');
+	$('#follow')
+		.on("click", function() {
+			$('.teal').css("height", "100px");
+			$('.social_header').toggle('slow');
 	}); 
 
+	$('.teal').on("mouseleave", function(){
+		$(this).css("height", "60px");
+		$('.social_header').hide('slow'); 
+	});
 });
 
