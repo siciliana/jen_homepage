@@ -1,5 +1,5 @@
 .album_body {
-	padding-top: 200px;
+	padding: 200px 200px;
 }
 
 img.insta_img {
@@ -29,10 +29,11 @@ ul.instagram li {
 	width: 100%;
 }
 
-.map { 
 		h2 {
-			padding-top: 50px;
+			padding-top: 4px;
 		}
+.static_map { 
+		text-align: center;
 		img{
     display: block;
     margin-left: auto;
@@ -41,4 +42,15 @@ ul.instagram li {
 		}
 }
 
+#map {
+	width: 100%;
+	min-height: 300px;
+	margin: 30% 0 4% 0;
+}
 
+#barcelona, #prague, #cali {
+	  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
